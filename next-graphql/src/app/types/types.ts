@@ -9,3 +9,9 @@ export type PageProps = {
     results: Character[];
   }
 }
+
+// form types
+export type FormValues = {
+  name: string;
+  image: string;
+}
